@@ -1,0 +1,115 @@
+@font-face { 
+    font-family: "Monument-Extended-Regular";
+    src: url('/fonts/MonumentExtended-Regular.otf'); 
+}
+@font-face {
+    font-family: "Monument-Extended-Ultrabold";
+    src: url('/fonts/MonumentExtended-Ultrabold.otf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+header{
+    width:100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.menu{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.btn{
+    border: none;
+    font-family: "Monument-Extended-Regular";
+    line-height: 1;
+}
+
+.btn-menu{
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color:white;
+    font-family: "Monument-Extended-Ultrabold";
+    font-size: 28px;
+}
+
+p{
+    font-family: "Monument-Extended-Regular";
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg img{
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.text{
+    position: absolute;
+    z-index: 1;
+}
+
+.btn-action{
+    background-color: #8EFDC7;
+    padding: 10px 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    color:000;
+}
+
+.btn-action:hover{
+    background-color: #FDEFE3;
+}
+
+a{
+    color:#000;
+}
+
