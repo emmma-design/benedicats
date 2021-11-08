@@ -12,10 +12,9 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #000;
+    background-color: #0C0908;
     color: #fff;
     text-align: center;
-    overflow: hidden;
 }
 
 header{
@@ -58,7 +57,7 @@ header{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -68,7 +67,7 @@ header{
 h1{
     color:white;
     font-family: "Monument-Extended-Ultrabold";
-    font-size: 28px;
+    font-size: 40px;
 }
 
 p{
@@ -113,3 +112,65 @@ a{
     color:#000;
 }
 
+.heading-evenements{
+    margin-top: 150px;
+}
+
+.container{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.box{
+    width: 32%;
+    height: auto;
+    border: 1px solid #fff;
+    margin-right: 1%;
+    background: #000;
+    border-radius: 10px;
+}
+
+.box:hover{
+    box-shadow: 5 5 11px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.box > img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2,p{
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+h2{
+    font-family: "Monument-Extended-Ultrabold";
+}
+
+@media (max-width:800px){
+    .container{
+        width:100%;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        width: 85%;
+        display: block;
+    }
+
+    .box{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
