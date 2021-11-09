@@ -112,65 +112,35 @@ a{
     color:#000;
 }
 
-.heading-evenements{
-    margin-top: 150px;
+#Evenements{
+    padding: 30px 0px;
 }
-
-.container{
-    display: flex;
-    width: 920px;
-    height: auto;
-    margin: 30px auto;
+#Evenements h1{
+    font-size: 40px;
+    font-family: "Monument-Extended-Ultrabold";
+    padding-top: 20%;
 }
-
-.box{
-    width: 32%;
-    height: auto;
-    border: 1px solid #fff;
-    margin-right: 1%;
-    background: #000;
-    border-radius: 10px;
-}
-
-.box:hover{
-    box-shadow: 5 5 11px rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-}
-
-.box > img{
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-h2,p{
+.title{
     text-align: center;
-    color: #fff;
+    padding: 25px 0px;
+    font-family: "Monument-Extended-Ultrabold";
 }
-
-p{
-    font-size: 15px;
-    padding: 0 5px;
+.title p{
+    font-size: 16px;
+    font-family: "Monument-Extended-Regular";
 }
-
-h2{
+.card{
+    margin: 20px 5px;
+    height: 600px;
+    min-width: 300px;
+}
+.card-body{
+    background-color: #000;
+}
+.card-title{
     font-family: "Monument-Extended-Ultrabold";
 }
 
-@media (max-width:800px){
-    .container{
-        width:100%;
-    }
-}
-
-@media (max-width:600px){
-    .container{
-        width: 85%;
-        display: block;
-    }
-
-    .box{
-        width: 100%;
-        margin-bottom: 4%;
-    }
+.col-md-4{
+    max-width:none;
 }
